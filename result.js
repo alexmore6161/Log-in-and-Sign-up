@@ -1,4 +1,4 @@
-// Get URL parameters
+// Get URL parameter
 const params = new URLSearchParams(window.location.search);
 const username = params.get('username');
 const email = params.get('email');
